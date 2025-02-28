@@ -17,8 +17,8 @@ ANYKERNEL_REPO="https://github.com/hazepynut/anykernel"
 ANYKERNEL_BRANCH="gki"
 
 # Kernel
-KERNEL_REPO="https://github.com/hazepynut/kernel_new"
-KERNEL_BRANCH="android12-5.10"
+KERNEL_REPO="https://github.com/yahdikush/android_kernel_common-5.10"
+KERNEL_BRANCH="custom-5.10"
 KERNEL_DEFCONFIG="gki_defconfig"
 DEFCONFIG_FILE="$workdir/common/arch/arm64/configs/$KERNEL_DEFCONFIG"
 
@@ -31,7 +31,7 @@ DEFCONFIGS="
 " # Leave this empty if you don't need to merge any configs
 
 # Releases repository
-GKI_RELEASES_REPO="https://github.com/hazepynut/quartix-releases"
+GKI_RELEASES_REPO="https://github.com/yahdikush/android_kernel_common-5.10"
 
 # AOSP Clang
 USE_AOSP_CLANG="false"
